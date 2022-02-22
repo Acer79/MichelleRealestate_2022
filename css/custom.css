@@ -1,0 +1,106 @@
+/******************************************
+    File Name: custom.css
+    Template Name: Michelle
+/****************************************** */
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+#fh5co-services .icon {
+  font-size: 70px;
+  margin-bottom: 30px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #79c144;
+}
+
+.section-heading h2 {
+  margin: 0 0 30px 0;
+  font-size: 50px;
+  font-weight: 300;
+  color: #444;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.fh5co-service p {
+  padding-bottom: 25px;
+}
+
+.compareWrap {
+  width: 100%;
+  padding: 5px 8px 0 8px;
+  background: #79c144;
+  border-radius: 0 25px 0 25px;
+  margin: 0% 0% 6% 0%;
+}
+
+table.compare {
+  width: 100%;
+  color: #002c53;
+  border-collapse: collapse;
+}
+
+table .savings,
+table.compare th.savings {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+table.compare td.mint {
+  background: #e2f1d4;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-left: none;
+}
+
+table.compare td.evo {
+  text-transform: uppercase;
+  text-align: left;
+  padding: 1% 0 1% 2%;
+}
+
+table.compare td.evo,
+table.compare td.evoDeets {
+  color: #fff;
+  background: none;
+  border: none;
+}
+
+table.compare td {
+  width: 25%;
+  text-align: center;
+  padding: 2px;
+  background: #fff;
+  border-bottom: 1px solid #79c144;
+  border-left: 1px solid #79c144;
+  border-right: none;
+  line-height: 22px;
+}
+
+.philosophy-header {
+  margin: -45px 0 30px 0;
+  font-size: 50px;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.hide {
+  display: none;
+}
+
+.truncate {
+  height: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

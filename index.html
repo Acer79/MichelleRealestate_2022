@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <!-- Site Metas -->
+   <title>Michelle Gee 2% Realty</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- Site Icons -->
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- Site CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Colors CSS -->
+   <link rel="stylesheet" href="css/colors.css">
+   <!-- ALL VERSION CSS -->
+   <link rel="stylesheet" href="css/versions.css">
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/custom.css">
+   <!-- Modernizer for Portfolio -->
+   <script src="js/modernizer.js"></script>
+   <!-- Michelle custom Javascript -->
+   <script src="./app.js"></script>
+   <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_Oqdh03dDVnAPUPxwqTvBC");
+    })();
+    </script>
+   <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
+   </head>
+   <body class="realestate_version">
+      <!-- LOADER -->
+      <div id="preloader">
+         <img class="preloader" src="images/loaders/loader-realestate.gif" alt="">
+      </div>
+      <!-- end loader -->
+      <!-- END LOADER -->
+      <header class="header header_style_01">
+         <nav class="megamenu navbar navbar-default" data-spy="affix">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index-real-estate.html"><img src="images/logos/logo.png" width="50" alt="image" /></a>
+                  <h2 class="logo-realty">Realty</h2>
+               </div>
+               <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a data-scroll href="#home">Home</a></li>
+                     <li><a data-scroll href="#service">Services</a></li>
+                     <li><a data-scroll href="#agent">The Agent</a></li>
+                     <li><a data-scroll href="#gallery">Gallery</a></li>
+                     <li><a data-scroll href="#testimonials">Testimonials</a></li>
+                     <li><a data-scroll href="#support">Contact</a></li>
+                     <li class="social-links"><a href="https://www.instagram.com/michellegee_yycrealtor/" target="_blank"><i class="fa fa-instagram global-radius"></i></a></li>
+                     <li class="social-links"><a href="https://www.facebook.com/Michelle-Gee-Realtor-2-Realty-191721711527889" target="_blank"><i class="fa fa-facebook global-radius"></i></a></li>
+                     <li class="social-links"><a href="#"><i class="fa fa-linkedin global-radius"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('uploads/Main.jpg');">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-sm-12">
+                  <div class="big-tagline clearfix">
+                     <h2 style="color: #002b54; text-shadow: 2px 2px #ffffff;">Sell Your Property with Michelle Gee</h2>
+                     <p class="lead">17 Years experience <br/> 100% Realtor Services <br/> 100% MLS Exposure <br/> Just 2% Commission </p>
+                     <a data-scroll href="#gallery" class="btn btn-light btn-radius grd1 btn-brd">View Gallery</a>
+                  </div>
+               </div>
+               <div class="col-md-6 wow slideInRight hidden-xs hidden-sm">
+                  <div class="contact_form">
+                     <h3><i class="fa fa-envelope-o grd1 global-radius"></i> QUICK CONTACT</h3>
+                     <form id="contact-form" class="row" name="contactform" method="post">
+                        <fieldset class="row-fluid">
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" name="first_name1" id="first_name1" class="form-control" placeholder="First Name">
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" name="last_name1" id="last_name1" class="form-control" placeholder="Last Name">
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <input type="email" name="email1" id="email1" class="form-control" placeholder="Your Email">
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" name="phone1" id="phone1" class="form-control" placeholder="Your Phone">
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <label class="sr-only">Seller/Buyer</label>
+                              <select name="select_service1" id="select_service1" class="selectpicker form-control" data-style="btn-white">
+                                 <option value="" disabled selected>Buyer/Seller</option>
+                                 <option value="Seller">Seller</option>
+                                 <option value="Buyer">Buyer</option>
+                              </select>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <label class="sr-only">Area Of Interest</label>
+                              <textarea class="form-control" name="comments1" id="comments1" rows="6" placeholder="Give us more details.."></textarea>
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                              <button type="button" value="SEND" id="submit1" onclick="sendQuickEmail()" class="btn btn-light btn-radius btn-brd grd1 btn-block">SEND CONTACT INFO</button>
+                           </div>
+                        </fieldset>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- end section -->
+      <div id="philosophy" class="parallax section db parallax-off">
+         <div class="container">
+            <div class="text-center">
+               <h1 class="philosophy-header">THE 2% REALTY PHILOSOPHY</h1>
+               <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                     <h4 style="color: white;">WE'RE A LITTE DIFFERENT - IN A VERY GOOD WAY</h4>
+                     <p style="padding-bottom: 40px;">We believe in real estate value added service and helping you keep more of your investment. We offer 100% Realty Services for ONLY 2% Realty commission. With 2% Realty you don’t get less, you just pay less.</p>
+                     <div class="compareWrap">
+                        <table class="compare">
+                          <tbody>
+                            <tr>
+                              <th class="center">Selling Price</th>
+                              <th class="center">Based on 7/3 Commission</th>
+                              <th class="center">2% Realty™ Commission</th>
+                              <th class="savings center">Your Savings</th>
+                            </tr>
+                            <tr>
+                              <td>$300,000</td>
+                              <td>$13,000</td>
+                              <td class="mint">$6,000</td>
+                              <td class="mint savings">$7,000</td>
+                            </tr>
+                            <tr>
+                              <td>$400,000</td>
+                              <td>$16,000</td>
+                              <td class="mint">$8,000</td>
+                              <td class="mint savings">$8,000</td>
+                            </tr>
+                            <tr>
+                              <td>$500,000</td>
+                              <td>$19,000</td>
+                              <td class="mint">$10,000</td>
+                              <td class="mint savings">$9,000</td>
+                            </tr>
+                            <tr>
+                              <td>$600,000</td>
+                              <td>$22,000</td>
+                              <td class="mint">$12,000</td>
+                              <td class="mint savings">$10,000</td>
+                            </tr>
+                            <tr>
+                              <td>$700,000</td>
+                              <td>$25,000</td>
+                              <td class="mint">$14,000</td>
+                              <td class="mint savings">$11,000</td>
+                            </tr>
+                            <tr>
+                              <td>$800,000</td>
+                              <td>$28,000</td>
+                              <td class="mint">$16,000</td>
+                              <td class="mint savings">$12,000</td>
+                            </tr>
+                            <tr>
+                              <td>$900,000</td>
+                              <td>$31,000</td>
+                              <td class="mint">$18,000</td>
+                              <td class="mint savings">$13,000</td>
+                            </tr>
+                            <tr>
+                              <td>$1,000,000</td>
+                              <td>$34,000</td>
+                              <td class="mint">$20,000</td>
+                              <td class="mint savings">$14,000</td>
+                            </tr>
+                            <tr>
+                              <td>$1,500,000</td>
+                              <td>$49,000</td>
+                              <td class="mint mintLast">$30,000</td>
+                              <td class="mint savings mintLast">$19,000</td>
+                            </tr>
+                            <tr>
+                              <td class="evo" colspan="4">
+                                <!-- <img alt="The Evolution of Realty - 100% Real Estate Agent Services | 100% MLS® System Exposure | 2% Commission" src="http://www.2percentrealty.ca/media/structure/evoTable.png"> -->
+                                The Evolution of Realty - 100% Real Estate Agent Services | 100% MLS® System Exposure | 2% Commission
+                              </td>
+                            </tr>
+                      
+                          </tbody>
+                    
+                        </table>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                     <h4 style="color: white;">PROVEN TRACK RECORD</h4>
+                     <p style="padding-bottom: 20px;">Established in 2007, 2% Realty has grown to become one of the largest and most trusted full service brokerages with a low rate of commission across all of Canada.</p>
+                     <img src="./images/prettyPhoto/2p500.jpeg" alt="2 percent" style="height: 400px;">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end section -->
+      <section id="fh5co-services" data-section="services" class="animated">
+         <div class="container" id="service">
+            <div class="row">
+               <div class="col-md-12 section-heading text-left" style="margin-top: 45px;">
+                  <h2 class="left-border to-animate fadeInUp animated">SERVICES</h2>
+                  <div class="row">
+                     <div class="col-md-8 subtext to-animate fadeInUp animated" style="padding-bottom: 45px;">
+                        <h3>Michelle Gee - Calgary 2% Realty Inc, is a fully licensed Real Estate Agent in Alberta. Michelle Gee has the experience and expertise to help you purchase or sell a property.  Our Full Service Features Include:</h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 col-sm-6 fh5co-service to-animate fadeInUp animated">
+                  <i class="icon to-animate-2 fa fa-globe bounceIn animated"></i>
+                  <h2>Full MLS® System Exposure</h2>
+                  <p class="pt-5">All 2% Realty Listings are posted on www.realtor.ca, using your professionally produced photography and a complete property profile.
+                  When posting to MLS®, we also publish your home's listing to all of the available websites that subscribe to MLS listings in Canada. In addition, we have our own custom built, mobile-friendly listings search that makes your listing look great on any device.</p>
+               </div>
+      
+               <div class="col-md-6 col-sm-6 fh5co-service to-animate fadeInUp animated">
+                  <i class="icon to-animate-2 fa fa-camera-retro bounceIn animated"></i>
+                  <h2>HDR Wide Angle Photography</h2>
+                  <p>
+                     The difference between some quick photos taken with a smartphone, and those taken by a pro with the right lenses, the right light, and a skillfull eye for detail can make all the difference when selling your home.  With HDR Photography you're home will look like it belongs in a magazine. These photos are then used for your online listing, and quality printed materials in the promotion of your property.
+                  </p>
+               </div>
+      
+               <div class="clearfix visible-sm-block"></div>
+      
+               <div class="col-md-6 col-sm-6 fh5co-service to-animate fadeInUp animated">
+                  <i class="fa-solid fa-sign-hanging icon to-animate-2 icon-layers2 bounceIn animated"></i>
+                  <h2>Full Professional Realtor Services</h2>
+                  <p>As a licensed Real Estate Associate in Calgary, Alberta, I am committed to provide my clients with the best possible value and the highest level of service that they would expect any where else.
+                  </p>
+      
+                  Our 2% Realty Full Service Features Include: 
+                  <br>
+                  <div style="margin-left:5%">
+                     <ul>
+                        <li>Full MLS.ca® exposure to the general public and all members of the Real Estate Board</li>
+                        <li>A Free, 2% Realty consultation to clearly understand your expectations, requirements, budget, and timeline</li>
+                        <li>Comprehensive and expert analysis of current buying and selling trends in your area</li>
+                        <li>Coordinate showings, manage inquiries, and negotiate offers</li>
+                        <li>Concise and professional completion of all paperwork</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-6 col-sm-6 fh5co-service to-animate fadeInUp animated">
+                  <i class="icon to-animate-2 fa fa-usd bounceIn animated"></i>
+                  <h2>Just 2% Commission</h2>
+                  <p>Save thousands of dollars when you sell your home with Michelle Gee, 2% Realty Inc.</p>
+      
+                  How can we charge 2% commission: 
+                  <br> 
+                  <div style="margin-left:5%;">
+                     <ul>
+                        <li>2% Realty is a volume based business based on a simple business model</li>
+                        <li>We have low overhead costs that allow our business to remain profitable</li>
+                        <li>We use technology to maximize efficiency and minimize our footprint on the environment</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 col-sm-6 fh5co-service to-animate fadeInUp animated" style="padding-top: 25px;">
+                  <i class="icon to-animate-2 fa-solid fa-vr-cardboard bounceIn animated"></i>
+                  <h2>Virtual Tours</h2>
+                  <p>A 360 Virtual Tour is a collection of 360-degree panoramic rotating images, “stitched” together to form a full, 360° view of a location. Special cameras, lenses, technology, and methods are used to bring a tour together into a visual experience for the viewer.</p>
+               </div>
+               <div class="col-md-6 col-sm-6 fh5co-service to-animate fadeInUp animated" style="padding-top: 25px;">
+                  <i class="icon to-animate-2 fa-solid fa-ruler-combined bounceIn animated"></i>
+                  <h2>Professional Measurements</h2>
+                  <p>The Residential Measurement Standard (RMS) comprises the principles that real estate professionals licensed by the Real Estate Council of Alberta (RECA) must follow when measuring residential properties to arrive at the RMS area. The RMS area of a property is the sum of its above grade levels</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end section -->
+      <div id="agent" class="parallax section db parallax-off">
+         <div class="container">
+            <div class="section-title row text-center">
+               <div class="col-md-8 col-md-offset-2">
+                  <h3>Agent Details</h3>
+                  <p class="lead">17 Years real estate experience in Calgary. I utilizes the latest technologies, market research and business strategies to exceed your expectations. I work for you to help you make informed real estate decisions and have your best interest in mind.</p>
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end title -->
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="post-media wow fadeIn">
+                     <img src="uploads/agent.png" alt="" class="img-responsive img-rounded">
+                     <!-- <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a> -->
+                  </div>
+                  <!-- end media -->
+               </div>
+               <!-- end col -->
+               <div class="col-md-5">
+                  <div class="message-box">
+                     <h4>The Agent</h4>
+                     <h2>Michelle Gee</h2>
+                     <p> Born and raised in Calgary and a Realtor since 2005. I have been through the different real estate cycles. My approach to real estate is based on honesty, integrity and building relationships. Buying or selling your home can be very stressful. I am here to make that transition flawless. Being a savvy mom of 3, I have the patience to help each individual or family to spark joy in finding their perfect home or investment opportunity. </p>
+                     <a href="mailto:michelle.gee@2percentrealty.ca" data-scroll class="btn btn-light global-radius btn-brd grd1 effect-1">Contact Me</a>
+                  </div>
+                  <!-- end messagebox -->
+               </div>
+               <!-- end col -->
+               <div class="col-md-4">
+                  <div class="agencies_meta clearfix">
+                     <span><i class="fa fa-envelope "></i> <a href="mailto:michelle.gee@2percentrealty.ca">michelle.gee@2percentrealty.ca</a></span>
+                     <span><i class="fa fa-link "></i> <a href="#">www.MichelleGee.ca</a></span>
+                     <span><i class="fa fa-phone-square "></i> +1 403 399 8411</span>
+                     <span><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/michellegee_yycrealtor/" target="_blank">MichelleGee_yycRealtor</a></span>
+                     <span><i class="fa fa-facebook-square "></i> <a href="https://www.facebook.com/Michelle-Gee-Realtor-2-Realty-191721711527889" target="_blank">facebook.com/Michelle-Gee-Realtor</a></span>
+                     <span><i class="fa fa-linkedin-square "></i> <a href="#">linkedin.com/tagline</a></span>
+                  </div>
+                  <!-- end agencies_meta -->
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+      </div>
+      <div id="gallery" class="section wb">
+         <div class="sep2"></div>
+         <div class="container">
+            <div class="section-title row text-center">
+               <div class="col-md-8 col-md-offset-2">
+                  <h3>Property Gallery</h3>
+                  <p class="lead">Some of the happy seller homes that I have helped sell.</p>
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end title -->
+            <div id="da-thumbs" class="da-thumbs portfolio">
+               <div class="post-media pitem item-w1 item-h1 cat1">
+                  <a href="uploads/Homes/GetMedia (27).jpg" data-rel="prettyPhoto[gal]">
+                     <img src="uploads/Homes/GetMedia (27).jpg" alt="" class="img-responsive">
+                     <div>
+                        <img src="./images/prettyPhoto/Sold.png" alt="SOLD">
+                     </div>
+                  </a>
+                  <div class="text-center" style="margin-top: 15px;" style="margin-top: 15px;">
+                     <h1>79 HOWSE HILL NE</h1>
+                     <p>Calgary, Alberta</p>
+                     <h1>LP $749,900</h1>
+                     <h6>4 bedrooms  2.5 bathrooms   2,699 sqft</h6>
+                  </div>
+               </div>
+               
+               <div class="post-media pitem item-w1 item-h1 cat2">
+                  <a href="uploads/Homes/GetMedia (37).jpg" data-rel="prettyPhoto[gal]">
+                     <img src="uploads/Homes/GetMedia (37).jpg" alt="" class="img-responsive">
+                     <div>
+                        <img src="./images/prettyPhoto/Sold.png" alt="SOLD">
+                     </div>
+                  </a>
+                  <div class="text-center" style="margin-top: 15px;">
+                     <h1>136 QUEEN ANNE ROAD SE</h1>
+                     <p>Calgary, Alberta</p>
+                     <h1>LP $519,900</h1>
+                     <h6>3 bedrooms  2 bathrooms   1,372 sqft</h6>
+                  </div>
+               </div>
+               <div class="post-media pitem item-w1 item-h1 cat1">
+                  <a href="uploads/Homes/GetMedia (2).jpeg" data-rel="prettyPhoto[gal]">
+                     <img src="uploads/Homes/GetMedia (2).jpeg" alt="" class="img-responsive">
+                     <div>
+                        <img src="./images/prettyPhoto/Sold.png" alt="SOLD">
+                     </div>
+                  </a>
+                  <div class="text-center" style="margin-top: 15px;">
+                     <h1>256 22 AVENUE NW</h1>
+                     <p>Calgary, Alberta</p>
+                     <h1>LP $699,900</h1>
+                     <h6>4 bedrooms  3.5 bathrooms 1,948 sqft</h6>
+                  </div>
+               </div>
+               <div class="post-media pitem item-w1 item-h1 cat3">
+                  <a href="uploads/Homes/GetMedia (31).jpg" data-rel="prettyPhoto[gal]">
+                     <img src="uploads/Homes/GetMedia (31).jpg" alt="" class="img-responsive">
+                     <div>
+                        <img src="./images/prettyPhoto/Sold.png" alt="SOLD">
+                     </div>
+                  </a>
+                  <div class="text-center" style="margin-top: 15px;">
+                     <h1>4 EVANSCREST MANOR NW</h1>
+                     <p>Calgary, Alberta</p>
+                     <h1>LP $349,900</h1>
+                     <h6>3 bedrooms  2.5 bathrooms 1,245 sqft</h6>
+                  </div>
+               </div>
+               <div class="post-media pitem item-w1 item-h1 cat2">
+                  <a href="uploads/Homes/GetMedia (1).jpeg" data-rel="prettyPhoto[gal]">
+                     <img src="uploads/Homes/GetMedia (1).jpeg" alt="" class="img-responsive">
+                     <div>
+                        <img src="./images/prettyPhoto/Sold.png" alt="SOLD">
+                     </div>
+                  </a>
+                  <div class="text-center" style="margin-top: 15px;">
+                     <h1>501, 16 VARSITY ESTATES CIRCLE NW</h1>
+                     <p>Calgary, Alberta</p>
+                     <h1>LP $418,000</h1>
+                     <h6>2 bedrooms  2 bathrooms 1,040 sqft</h6>
+                  </div>
+               </div>
+               <div class="post-media pitem item-w1 item-h1 cat1">
+                  <a href="uploads/Homes/GetMedia (44).jpg" data-rel="prettyPhoto[gal]">
+                     <img src="uploads/Homes/GetMedia (44).jpg" alt="" class="img-responsive">
+                     <div>
+                        <img src="./images/prettyPhoto/Sold.png" alt="SOLD">
+                     </div>
+                  </a>
+                  <div class="text-center" style="margin-top: 15px;">
+                     <h1>15 EVANSRIDGE CRESCENT NW</h1>
+                     <p>Calgary, Alberta</p>
+                     <h1>LP $499,900</h1>
+                     <h6>3 bedrooms 2.5 bathrooms 1,952 sqft</h6>
+                  </div>
+               </div>
+            </div>
+            <!-- end portfolio -->
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- end section -->
+      <div id="testimonials" class="section lb">
+         <div class="container">
+            <div class="section-title row text-center">
+               <div class="col-md-8 col-md-offset-2">
+                  <h3 style="color: white;">Happy Customers</h3>
+                  <p class="lead">Here’s what some of the home buyers and sellers have said about my service. Thank you for the support and I am super happy to be of service.</p>
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end title -->
+            <div class="row">
+               <div class="col-md-12 col-sm-12">
+                  <div class="testi-carousel owl-carousel owl-theme">
+                     <div class="testimonial clearfix">
+                        <div class="desc">
+                           <h3 style="color: #7ac041; font-weight: bold;"><i class="fa fa-quote-left"></i> Professionalism, Quality, Responsiveness</h3>
+                           <p style="color: #072c52; font-weight: bold;" class="lead">Michelle is very passionate in her work, she was fully confident about selling our house and it was sold within a week!!! Amazing realtor!
+                              We will be using her services again for sure! Thanks so much Michelle!</p>
+                        </div>
+                        <div class="testi-meta">
+                           <!-- <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft"> -->
+                           <h4 style="color: white;">Aline Bravo <small>- Client</small></h4>
+                        </div>
+                        <!-- end testi-meta -->
+                     </div>
+                     <!-- end testimonial -->
+                     <div class="testimonial clearfix">
+                        <div class="desc">
+                           <h3 style="color: #7ac041; font-weight: bold;"><i class="fa fa-quote-left"></i> Professionalism, Quality, Responsiveness</h3>
+                           <p style="color: #072c52; font-weight: bold;" class="lead">Michelle did a wonderful job for me in selling my condominium. Many things that I could not do and Michelle took over and did a thorough job. She also recommended an excellent real estate lawyer who I hired as well. I would recommend Michelle to anyone.</p>
+                        </div>
+                        <div class="testi-meta">
+                           <!-- <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft"> -->
+                           <h4 style="color: white;">Janet Young <small>- Client</small></h4>
+                        </div>
+                        <!-- end testi-meta -->
+                     </div>
+                     <!-- end testimonial -->
+                     <div class="testimonial clearfix">
+                        <div class="desc">
+                           <h3 style="color: #7ac041; font-weight: bold;"><i class="fa fa-quote-left"></i> Professionalism, Quality, Responsiveness</h3>
+                           <p style="color: #072c52; font-weight: bold;" class="lead">Michelle was responsive and interested in helping us in our home search. Once we found our home, Michelle always made sure we were up to date on negotiations and what was going on. This was greatly appreciated! We would love to work with Michelle again!</p>
+                        </div>
+                        <div class="testi-meta">
+                           <!-- <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft"> -->
+                           <h4 style="color: white;">Jessie Newton <small>- Client</small></h4>
+                        </div>
+                        <!-- end testi-meta -->
+                     </div>
+                     <!-- end testimonial -->
+                     <div class="testimonial clearfix">
+                        <div class="desc">
+                           <h3 style="color: #7ac041; font-weight: bold;"><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                           <p style="color: #072c52; font-weight: bold;" class="lead">Michelle was extremely helpful in selling my condo. I live in a different province and she really made it stress free and looked after everything for me. I would highly recommend her to anyone that is looking for an excellent realtor. Thank you sooo much!
+                           </p>
+                        </div>
+                        <div class="testi-meta">
+                           <!-- <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft"> -->
+                           <h4 style="color: white;">Louise Maxwell <small>- Client</small></h4>
+                        </div>
+                        <!-- end testi-meta -->
+                     </div>
+                     <!-- end testimonial -->
+                     <div class="testimonial clearfix">
+                        <div class="desc">
+                           <h3 style="color: #7ac041; font-weight: bold;"><i class="fa fa-quote-left"></i> Responsiveness</h3>
+                           <p style="color: #072c52; font-weight: bold;" class="lead">Michelle helped my parents sell their home and purchase their new condo. She was reliable and very quick at responding to phone calls/messages. Worked hard and would recommend her as a real estate agent.</p>
+                        </div>
+                        <div class="testi-meta">
+                           <!-- <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft"> -->
+                           <h4 style="color: white;">Natasha Beauchamp <small>- Client</small></h4>
+                        </div>
+                        <!-- end testi-meta -->
+                     </div>
+                     <!-- end testimonial -->
+                     <div class="testimonial clearfix">
+                        <div class="desc">
+                           <h3 style="color: #7ac041; font-weight: bold;"><i class="fa fa-quote-left"></i> Professionalism, Quality, Responsiveness</h3>
+                           <p style="color: #072c52; font-weight: bold;" class="lead">Michelle’s been my go to realtor and experience has been great! She’s passionate in her work, detail oriented, and been able to find a home that fits my needs. Highly recommend Michelle to anyone looking to buy or sell a home!</p>
+                        </div>
+                        <div class="testi-meta">
+                           <!-- <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft"> -->
+                           <h4 style="color: white;">Sheila Lam <small>- Client</small></h4>
+                        </div>
+                        <!-- end testi-meta -->
+                     </div>
+                     <!-- end testimonial -->
+                  </div>
+                  <!-- end carousel -->
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- end section -->
+      <div id="support" class="section wb">
+         <div class="container">
+            <div class="section-title text-center">
+               <h3>Get In Touch Today</h3>
+               <p class="lead">Let me give you more details about the home you want to sell or purchase. <br>Click on one of the two options, fill in the form and I'll get back to you as soon as I can!</p>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-md-6 col-sm-6 text-center" style="padding-bottom: 25px;">
+                  <button class="btn btn-info btn-lg" onclick="getBuyerForm()">Buyer</button>
+               </div>
+               <div class="col-md-6 col-sm-6 text-center" style="padding-bottom: 25px;">
+                  <button class="btn btn-info btn-lg" onclick="getSellerForm()">Seller</button>
+               </div>
+            </div>
+            <!-- end title -->
+            <div id="buyerFormSection" class="hide">
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                     <div class="contact_form">
+                        <div id="message"></div>
+                        <form id="buyerForm" class="row" name="buyerForm" method="post">
+                           <fieldset class="row-fluid">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                 <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                 <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                 <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                 <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                 <label class="sr-only">Property Type</label>
+                                 <select name="select_service" id="propertyType" class="selectpicker form-control" data-style="btn-white">
+                                    <option value="" disabled selected>Property Type</option>
+                                    <option value="Condo/Apartment">Condo/Apartment</option>
+                                    <option value="Duplex/Attached Home">Duplex/Attached Home</option>
+                                    <option value="Detached Home">Detached Home</option>
+                                 </select>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                 <label class="sr-only">What is max price?</label>
+                                 <select name="select_price" id="select_price" class="selectpicker form-control" data-style="btn-white">
+                                    <option value="" disabled selected>What is max price?</option>
+                                    <option value="$100k - $300k">$100k - $300k</option>
+                                    <option value="$300k - $500k">$300k - $500k</option>
+                                    <option value="$500k - $800k">$500k - $800k</option>
+                                    <option value="$700+>$800k and above">$800k and above</option>
+                                 </select>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                 <button type="button" value="SEND" id="submit" onclick="sendBuyerEmail()" class="btn btn-light btn-radius btn-brd grd1 btn-block">SEND INFORMATION</button>
+                              </div>
+                           </fieldset>
+                        </form>
+                     </div>
+                  </div>
+                  <!-- end col -->
+               </div>
+               </div>
+               <!-- end row -->
+               <div id="sellerFormSection" class="hide">
+                  <div class="row">
+                     <div class="col-md-8 col-md-offset-2">
+                        <div class="contact_form">
+                           <div id="message"></div>
+                           <form id="sellerform" class="row" name="contactform" method="post">
+                              <fieldset class="row-fluid">
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                 <select name="select_service" id="property_type" class="selectpicker form-control" data-style="btn-white">
+                                    <option value="" disabled selected>Property Type</option>
+                                    <option value="Condo/Apartment">Condo/Apartment</option>
+                                    <option value="Duplex/Attached Home">Duplex/Attached Home</option>
+                                    <option value="Detached Home">Detached Home</option>
+                                 </select>
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <select name="select_price" id="parking" class="selectpicker form-control" data-style="btn-white">
+                                       <option value="" disabled selected>Parking Type</option>
+                                       <option value="Attached Garage">Attached Garage</option>
+                                       <option value="Detached Garage">Detached Garage</option>
+                                       <option value="Street Parking">Street Parking</option>
+                                       <option value="Underground">Underground</option>
+                                    </select>
+                                 </div>
+                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <input type="text" name="address" id="address" class="form-control" placeholder="Address to Assess">
+                                 </div>
+                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                 </div>
+                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <button type="button" value="SEND" id="submit" onclick="sendSellerEmail()" class="btn btn-light btn-radius btn-brd grd1 btn-block">SEND INFORMATION</button>
+                                 </div>
+                              </fieldset>
+                           </form>
+                        </div>
+                     </div>
+                     <!-- end col -->
+                  </div>
+                  <!-- end row -->
+
+               </div>
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- end section -->
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4 col-sm-4 col-xs-12">
+                  <div class="widget clearfix">
+                     <div class="widget-title">
+                        <img src="images/logos/full_logo_GW.png" width="210" alt="">
+                     </div>
+                     <p class="lead">100% Realtor Services <br/> 100% MLS Exposure <br/> Just 2% Commission </p>
+                  </div>
+                  <!-- end clearfix -->
+               </div>
+               <!-- end col -->
+               <div class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="widget clearfix">
+                     <div class="widget-title">
+                        <h3>Contact Details</h3>
+                     </div>
+                     <ul class="footer-links">
+                        <li><a href="mailto:#">Michelle.gee@2percentrealty.ca</a></li>
+                        <li><a href="#">www.michelleGee.com</a></li>
+                        <li>Suite 400, 909 17 Avenue SW Calgary AB,
+                           2% Realty Calgary Head Office</li>
+                        <li>+1 403 399 8411</li>
+                     </ul>
+                     <!-- end links -->
+                  </div>
+                  <!-- end clearfix -->
+               </div>
+               <!-- end col -->
+            
+               <!-- end col -->
+               <div class="col-md-4 col-sm-4 col-xs-12">
+                  <div class="widget clearfix">
+                     <div class="widget-title">
+                        <h3>Social</h3>
+                     </div>
+                     <ul class="footer-links">
+                        <li><a href="https://www.facebook.com/Michelle-Gee-Realtor-2-Realty-191721711527889" target="_blank"><i class="fa fa-facebook"></i>facebook.com/Michelle-Gee-Realtor </a></li>
+                        <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/michellegee_yycrealtor/" target="_blank">MichelleGee_yycRealtor</a></li>
+                        <li><i class="fa fa-linkedin-square "></i> <a href="#">linkedin.com/MichelleGee</a></li>
+                     </ul>
+                     <!-- end links -->
+                  </div>
+                  <!-- end clearfix -->
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </footer>
+      <!-- end footer -->
+      <div class="copyrights">
+         <div class="container">
+            <div class="footer-distributed">
+               <div class="footer-left">
+                  <p class="footer-company-name">All Rights Reserved. <a href="">MichelleGee.ca</a> &copy; 2021</p>
+               </div>
+            </div>
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- end copyrights -->
+      <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      <!-- MAP & CONTACT -->
+     
+      <!-- ALL JS FILES -->
+      <script src="js/all.js"></script>
+      <!-- ALL PLUGINS -->
+      <script src="js/custom.js"></script>
+      <script src="js/portfolio.js"></script>
+      <script src="js/hoverdir.js"></script>    
+   </body>
+</html>
