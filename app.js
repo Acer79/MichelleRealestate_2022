@@ -44,14 +44,14 @@ function sendBuyerEmail() {
 // Seller contact form function
 function sendSellerEmail() {
   var params = {
-    first_name: document.getElementById("first_name1").value,
-    last_name: document.getElementById("last_name").value,
-    email: document.getElementById("email").value,
-    phone: document.getElementById("phone").value,
+    first_name: document.getElementById("first_name2").value,
+    last_name: document.getElementById("last_name2").value,
+    email: document.getElementById("email2").value,
+    phone: document.getElementById("phone2").value,
     property: document.getElementById("property_type").value,
     parking: document.getElementById("parking").value,
     address: document.getElementById("address").value,
-    message: document.getElementById("comments").value,
+    message: document.getElementById("comments2").value,
   };
 
   emailjs
